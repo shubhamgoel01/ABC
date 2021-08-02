@@ -1,0 +1,174 @@
+{
+	"id": "981c6fb7-628c-f9c0-8a3b-f084eb0033f9",
+	"name": "student_crud",
+	"description": "",
+	"order": [
+		"16c8b0dc-1c01-c73f-c4d2-aab3100fe180",
+		"8cb2207c-16e9-1030-d56c-8d5252628127",
+		"fdbe2fc7-9c4e-b736-1299-d5b6444115db",
+		"3a7d807b-0fc0-890e-da53-32959368a99b",
+		"88788ef3-9c8d-35a4-266a-07c7d7ef13c6"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1627900836081,
+	"owner": "16071362",
+	"public": false,
+	"requests": [
+		{
+			"id": "16c8b0dc-1c01-c73f-c4d2-aab3100fe180",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/studentlist/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "981c6fb7-628c-f9c0-8a3b-f084eb0033f9",
+			"data": [],
+			"dataMode": "raw",
+			"name": "GET request",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1627900867857,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "    {\n        \"name\": \"ben\",\n        \"age\": 10,\n        \"city\": \"ben\"\n    }"
+		},
+		{
+			"id": "3a7d807b-0fc0-890e-da53-32959368a99b",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/studentlist/14/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "981c6fb7-628c-f9c0-8a3b-f084eb0033f9",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Delete request",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1627900995452,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "    {\n        \"name\": \"new_post\",\n        \"age\": 10,\n        \"city\": \"new_city\"\n    }"
+		},
+		{
+			"id": "88788ef3-9c8d-35a4-266a-07c7d7ef13c6",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/studentlist/11/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "981c6fb7-628c-f9c0-8a3b-f084eb0033f9",
+			"data": [],
+			"dataMode": "raw",
+			"name": "PUT request",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1627909520696,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "    {\n        \"name\": \"new_post_put\",\n        \"age\": 10,\n        \"city\": \"new_city\"\n    }"
+		},
+		{
+			"id": "8cb2207c-16e9-1030-d56c-8d5252628127",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/studentlist/11/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "981c6fb7-628c-f9c0-8a3b-f084eb0033f9",
+			"data": [],
+			"dataMode": "raw",
+			"name": "GET request by ID",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1627900922577,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "    {\n        \"name\": \"ben\",\n        \"age\": 10,\n        \"city\": \"ben\"\n    }"
+		},
+		{
+			"id": "fdbe2fc7-9c4e-b736-1299-d5b6444115db",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/studentlist/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "981c6fb7-628c-f9c0-8a3b-f084eb0033f9",
+			"data": [],
+			"dataMode": "raw",
+			"name": "POST request",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1627900964536,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "    {\n        \"name\": \"new_post\",\n        \"age\": 10,\n        \"city\": \"new_city\"\n    }"
+		}
+	]
+}
