@@ -13,4 +13,5 @@ python manage.py migrate
 python manage.py createsuperuser
 
 3) Run the local-server
+4) 
 python manage.py runserver
