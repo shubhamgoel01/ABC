@@ -1,4 +1,4 @@
-# API-s_CRUD-using-Django_rest_framework
+# API-s_CRUD-using-Django_rest_framework USING ClassBasedView
 
 1) Install requirement.txt file using this command 
 
