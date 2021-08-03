@@ -2,7 +2,7 @@
 API- GET, POST, PUT, DELETE
 
 step to run this:
-1) Install requirement.txt file using this command 
+1) Install requirement.txt file using this command : pip install -r requirements.txt
 2) python manage.py makemigrations
 3) python manage.py migrate
 4) python manage.py runserver
